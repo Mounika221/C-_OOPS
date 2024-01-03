@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std
+int main(){
+  int n,remainder,sum=0,temp;    
+  cout<<"Enter the Number=";    
+  cin>>n;    
+ temp=n;    
+ while(n>0)    
+{    
+ r=n%10;    
+ sum=(sum*10)+r;    
+ n=n/10;    
+}    
+if(temp==sum)    
+cout<<"The given Number is Palindrome.";    
+else    
+cout<<"The given Number is not Palindrome.";   
+return 0;
+}
